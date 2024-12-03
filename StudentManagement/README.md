@@ -1,18 +1,29 @@
+# Updating the README file with the detailed content
+
+# Path to the uploaded README file
+file_path = "/mnt/data/README.md"
+
+# Updated README content
+updated_readme = """
 # Student Management System
 
-## Description
-This is a backend implementation for a Student Management System built using FastAPI and MongoDB Atlas with PyMongo.
+## 📜 Description
+A backend application for managing student records, built using **FastAPI** and **MongoDB Atlas**. This system provides RESTful APIs to create, fetch, update, delete, and list student records.
 
-## Features
-- Create, fetch, update, delete, and list student records.
-- Uses MongoDB Atlas as the database.
+## 🚀 Features
+- CRUD operations for student records.
+- MongoDB Atlas integration for seamless cloud-based database management.
+- Structured project layout following best practices.
+- Scalable and easy-to-maintain architecture.
 
-## Tech Stack
+---
+
+## 🛠️ Tech Stack
 - **Language:** Python
 - **Framework:** FastAPI
 - **Database:** MongoDB (Atlas)
+- **HTTP Server:** Gunicorn with Uvicorn workers
 
-## Setup
-1. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
+---
+
+## 📂 Project Structure
