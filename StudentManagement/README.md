@@ -1,10 +1,3 @@
-# Updating the README file with the detailed content
-
-# Path to the uploaded README file
-file_path = "/mnt/data/README.md"
-
-# Updated README content
-updated_readme = """
 # Student Management System
 
 ## 📜 Description
@@ -27,3 +20,40 @@ A backend application for managing student records, built using **FastAPI** and 
 ---
 
 ## 📂 Project Structure
+--**student-management-system/**
+- ├── **app/**.
+- │   ├── **main.py**                # Entry point of the application
+- │   ├── **models/**                # Database models
+- │   │   ├── **student_model.py**
+- │   ├── **routes/**               # API route definitions
+- │   │   ├── **student_routes.py**
+- │   ├── **database/**             # Database connection
+- │   │   ├── **connection.py**
+- │   ├── **schemas/**             # Data validation schemas
+- │       ├── **student_schema.py**
+- ├── **requirements.txt**          # Python dependencies
+- ├── **README.md**                 # Project documentation
+
+---
+
+## ⚡ Quick Start
+- **1️⃣ Clone the Repository**
+- **2️⃣ Set Up Virtual Environment (Optional but Recommended)**
+- **3️⃣ Install Dependencies**
+- **4️⃣ Configure MongoDB Atlas**
+- **Set up a free MongoDB cluster on MongoDB Atlas.**
+- **Update your MongoDB connection URI in connection.py**
+- **5️⃣ Run the Application**
+- **6️⃣ Access the API**
+- *The application will be running at: http://127.0.0.1:8000*
+- **Swagger Docs: http://127.0.0.1:8000/docs**
+
+---
+
+## 🧪 API Endpoints 
+- *Method*	- *Endpoint*	       - *Description*
+- **POST**	 - **/students**      - **Add a new student record**
+- **GET**   	- **/students**       - **Get all student records**
+- **GET**	    - **/students/{id}**	- **Get a specific student record**
+- **PUT**   	- **/students/{id**	  - **Update a student record**
+- **DELETE**	- **/students/{id}**	- **Delete a student record**
